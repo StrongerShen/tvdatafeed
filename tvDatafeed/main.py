@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 class Interval(enum.Enum):
+    # in_1_second = "1S"    # need to try 
     in_1_minute = "1"
     in_3_minute = "3"
     in_5_minute = "5"
